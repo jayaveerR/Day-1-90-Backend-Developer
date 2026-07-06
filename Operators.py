@@ -250,3 +250,5 @@ name = "jayaveer"
 print(name.lower())
 print(name.upper())
 print(name.startswith(name))
+
+name
