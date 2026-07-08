@@ -322,3 +322,21 @@ age  = 20
 city = "Mangalagiri"
 
 print(f"My name is{name} , Age is {age}, Your City {city}")
+
+
+
+subscription = True
+internet = False
+if subscription == internet:
+    print("Movie Start")
+print("Cannot play Movie")
+
+username =input("Enter Your Name : ")
+password =input("Enter Your Password : ")
+
+if username in "jayaveer":
+    print("Invalid Username")
+elif password in "python123":
+    print("Invalid Password")
+else:
+    print("invalid password")

@@ -1,92 +1,62 @@
-# indexing
 """
-email = "jayaveer1639@gmail.com"
-name = "Jayaveer"
-password = "jayaveer123456"
-print(name[0],name[-0])
-print(password[0])
+fruits = ["Apple", "Banana", "Orange"]
 
+for fruit in fruits:
+    print(fruit)
 
-# string  slicing
+students = ["Ravi", "Jay", "Sai"]
 
-name = "jayaveer"
-email = "nani@gmail.com"
+for student in students:
+    print(student)
 
-print(name[::-1])
+customers = ["Jayaveer", "Nikhitha", "Raju"]
+for customer in customers:
+    print("WellCome To Bisonix", customer)
+    
+# start , stop , step
+for u in range(10 , 20 , 4):
+ print(u)
 
-# string length
+for i in range(10, 0, -1):
+    print(i)
 
-name = "jayaveer"
+# nested loop
 
-print(len(name))
+for i in range(2):
+   for j in range(4):
+      print(i , j)
 
-#string methods 
+for classroom in range(1,4):
+   print("class", classroom)
 
-name = "jayaveer"
-age = "NANI"
-print(name .upper())
-print(name.lower())
-print(name.capitalize())
-print(name.title())
-print(age.swapcase())
+   for student in range(1,4):
+    print("Students", student)
 
-# sreach methods 
+customers = ["Jayaveer", "Ravi", "Nani", "Sai"]
 
-name = "nani"
-email = "nani@gmail.com"
-print(name.find("jayaveer"))
-print(name.count("jayaveer"))
-print(name.replace("nani", "Nani"))
+for customer in customers:
+    if customer == "Ravi":
+       break
+    print(customer)
 
-# String Concatenation 
-first_name = "jayaveer"
-second_name = "nani"
-print(first_name + second_name)
+students = ["Jay", "Ravi", "Sai"]
 
+for student in students:
 
-# escpe charecters \n , \t - table , 
-print("Name : Jayaveer\nAge : 22")
-print("Name\tAge\tCity")
-print("Jay\t22\tGuntur")
+    if student == "Ravi":
+        continue
 
-# double quotes
+    print(student)
 
-print("He said, \"Python is Easy\"")
+# break  , Continue
+customers = ["Jayaveer", "Ravi", "Nani", "Sai"]
 
-# single quotes 
-
-print('It\'s my laptop')
-
-# \\ 
-print("C:\\Users\\Jayaveer\\Desktop")
-
-# \t return
-print("Hello\rPython")
-
-# create a student report
-
-print("Name    : Jayaveer \nAge     : 22 \nBranch  : MCA \nCollege : DVR College")
-
-username = "raju@gmail.com"
-
-if "@" in username:
-    print("Invalid Username")
-else:
-    print("Valid Username")
-
+for customer in customers:
+    if customer == "Ravi":
+        continue
+        break
+    print(customer)
 
 """
+# Pass While-Loop
 
-email = "ramanadhamayaveer@gmail.com"
-
-if "@gmail.com" in email:
- print("Valid Email")
-else:
- print("Invalid Email")
-
-password = "jayaveer"
-
-if "python" not in password:
-  print("Valid Password ")
-else:
- print("Invalid Password")  
