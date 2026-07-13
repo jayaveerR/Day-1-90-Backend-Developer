@@ -94,7 +94,6 @@ elif rating >= 3.5:
 
 else :
  print("⚠️ Performance Improvement Plan")
-"""
 
 movies_list = ["Pushpa", "Dhee", "Salar"]
 movie_name  = input("Enter Movie : ")
@@ -121,3 +120,52 @@ if movie_name in movies_list :
         print("❌ Seats Not Available")
 else:
     print("❌ Show Not Available")
+
+# 🎓 Student Result System
+
+marks = 20
+if marks >= 90:
+    print("🌟 Grade A")
+elif 75<= marks <=89 :
+    print("🥈 Grade B")
+elif 50<= marks <=74:
+    print("🥉 Grade C")
+elif 35<= marks <=49:
+    print("✅ Pass")
+else:
+    print("❌ Fail")
+
+
+
+# 🎓 College Exam Eligibility
+
+attedence = 80
+fee_paid = False
+
+if attedence >= 75 and fee_paid:
+    print("✅ Eligible for Exam")
+elif attedence < 75:
+    print("Low Attedence")
+else:
+    print("❌ Fees Not Paid")
+
+"""
+
+# 🛒 Online Shopping Discount System
+
+customer_premium = False
+purchase_amount = 500
+cupon = False
+
+if customer_premium and purchase_amount >= 5000:
+    print("🎉 20% Discount Applied")
+elif 3000 <= purchase_amount <=4999:
+    print("🎁 10% Discount Applied")
+    if cupon:
+        print("🏷️ Extra ₹500 Discount")
+    else :
+        print("⚠️ No Extra Discount")
+elif 1000 <= purchase_amount <=2999:
+    print("🎁 5% Discount Applied")
+else:
+    print("❌ No Discount Available")
